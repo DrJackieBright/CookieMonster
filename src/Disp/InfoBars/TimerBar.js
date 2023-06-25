@@ -1,4 +1,4 @@
-/** Functions related to the Timer Bar */
+/** Functions related to the Timer Bar */ 
 
 import { UpdateBotTimerBarPosition } from '../../Config/SpecificToggles';
 import {
