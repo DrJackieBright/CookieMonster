@@ -127,7 +127,7 @@ export function UpdateTimerBar() {
       l('CMTimerBarGCTime').textContent = `${Math.ceil(
         (Game.shimmerTypes.golden.maxTime - Game.shimmerTypes.golden.time) / Game.fps,
       )} ${chanceToSpawn < 0.01 ? '<' : ''}${chanceToSpawn.toLocaleString('en', {
-        style: 'percent',
+        style: 'percent', minimumFractionDigits: 3
       })}`;
       numberOfTimers += 1;
     } else l('CMTimerBarGC').style.display = 'none';
